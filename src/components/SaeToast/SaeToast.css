@@ -1,0 +1,104 @@
+.wrapper {
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  position: absolute;
+}
+.message {
+  font-size: 14px;
+  width: 90%;
+  font-weight: 700;
+}
+
+.top-center {
+  top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  animation: toast-top 0.4s;
+}
+
+.top-right {
+  top: 1rem;
+  right: 1rem;
+  animation: toast-top-right 0.4s;
+}
+.top-left {
+  top: 1rem;
+  left: 1rem;
+  animation: toast-top-left 0.4s;
+}
+.bottom-right {
+  bottom: 1rem;
+  animation: toast-bottom 0.4s;
+}
+.bottom-center {
+  bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  animation: toast-bottom 0.4s;
+}
+
+.bottom-left {
+  bottom: 1rem;
+  left: 1rem;
+  animation: toast-bottom 0.4s;
+}
+
+@keyframes toast-top-right {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 1rem;
+  }
+}
+@keyframes toast-top-center {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 1rem;
+  }
+}
+
+@keyframes toast-top-left {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1rem;
+  }
+}
+
+@keyframes toast-bottom-right {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 1rem;
+  }
+}
+@keyframes toast-bottom-center {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 1rem;
+  }
+}
+@keyframes toast-bottom-left {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1rem;
+  }
+}
