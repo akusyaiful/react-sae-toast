@@ -1,6 +1,6 @@
 {
-  "name": "@akusyaiful/react-sae-toast",
-  "version": "1.0.1",
+  "name": "react-sae-toast",
+  "version": "1.0.3",
   "description": "A react toast library",
   "scripts": {
     "rollup": "rollup -c",
@@ -42,8 +42,5 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/akusyaiful"
-  },
   "dependencies": {}
 }
